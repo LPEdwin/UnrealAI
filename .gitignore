@@ -1,0 +1,78 @@
+# Unreal Engine folders to ignore
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Unreal autosaves and backups
+Autosaves/
+Backup/
+
+# IDE/editor folders
+.vs/
+.idea/              # JetBrains Rider project files
+.vscode/
+
+# Project-specific settings (optional – remove these if you want to version configs)
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEngine.ini
+Config/DefaultGame.ini
+Config/DefaultInput.ini
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup and temp files
+*.tmp
+*.bak
+*.swp
+
+# Visual Studio / Xcode generated files
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.xcodeproj
+*.xcworkspace
+
+# Compiled binaries and object files
+*.pdb
+*.obj
+*.dll
+*.exe
+*.lib
+*.app
+*.dylib
+*.so
+
+# Launcher and plugin cache
+*.uprojectdirs
+
+# Ignore local log files
+*.log
+
+# Crash dumps
+*.dmp
+
+# Rider cache and metadata
+.idea/
+*.iml
+.idea_modules/
+.idea.workspace.xml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/.idea_modules/
+.idea/**/dictionaries
+.idea/httpRequests/
+.idea/shelf/
+
+# Git LFS - do NOT ignore these files; track them
+# Track large binary assets manually
+# Example: git lfs track "*.uasset"
+
+# Never ignore the project file
+!*.uproject
