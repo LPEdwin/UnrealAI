@@ -1,0 +1,11 @@
+required:
+add Navmesh
+add a "Player" tag to the PlayerController
+
+add Zombie to scene
+	if spawned dynamically the Auto Possess AI setting needs to be set to Spawned (not tested)
+
+
+optional:
+add BP_HealthComponent to character
+add WPB_Hud to character
